@@ -12,10 +12,10 @@ a {
 
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   -webkit-tap-highlight-color: transparent;
   -ms-overflow-style: none;  /* IE and Edge */
+  margin: 0;
+  padding: 0;
   scrollbar-width: none;
 }
 
@@ -35,6 +35,6 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
   color: transparent;
+  width: 10px;
 }

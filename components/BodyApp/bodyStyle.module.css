@@ -1,34 +1,34 @@
 .body__App {
-    width: 100%;
-    height: 70vh;
-    border-radius: 1.5rem 1.5rem 0 0;
-    background-color: #ffffff;
-    padding-top: 2rem;
-    display: flex;
     align-items: center;
-    justify-content: flex-start;
+    background-color: #ffffff;
+    border-radius: 1.5rem 1.5rem 0 0;
+    display: flex;
     flex-direction: column;
+    height: 70vh;
+    justify-content: flex-start;
+    padding-top: 2rem;
+    width: 100%;
 }
 
 .body__title {
     font-size: 16px;
     font-weight: 500 ;
-    text-align: center;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .body__button {
-    width: 150px;
-    height: 50px;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    border-radius: 2rem;
     background-color: #0E00FF;
+    border-radius: 2rem;
     color: #FFFFFF;
+    display: flex;
     font-weight: 500;
     font-size: 16px;
+    height: 50px;
+    justify-content: center;
     transition: 0.2s;
+    width: 150px;
 }
 
 .body__button:hover {
